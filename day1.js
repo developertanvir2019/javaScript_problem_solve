@@ -23,6 +23,12 @@ const reverseSrt = (str) => {
     }
     return text
 }
+
+const reverse = (str) => {
+    return str.split('').reverse().join('');
+}
+// console.log(reverse('tah'));
+
 // console.log(reverseSrt('tanvir'));
 
 

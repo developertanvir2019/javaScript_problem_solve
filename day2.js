@@ -12,18 +12,25 @@ const pal = (str) => {
 
 
 
-function generateFibonacci(n) {
-    const sequence = [0, 1]; // Initialize the sequence with the first two numbers
-
+const generateFibonacci = (n) => {
+    let sequence = [0, 1];
     for (let i = 2; i < n; i++) {
-        const num = sequence[i - 1] + sequence[i - 2]; // Calculate the next Fibonacci number
-        sequence.push(num); // Add the number to the sequence
+        let num = sequence[i - 1] + sequence[i - 2];
+        sequence.push(num)
     }
-
-    return sequence; // Return the generated Fibonacci sequence
+    return sequence;
 }
 
-// console.log(generateFibonacci(100));
+// console.log(generateFibonacci(10));
+const fiboFun = (n) => {
+    let sequence = [0, 1];
+    for (let i = 2; i < n; i++) {
+        let nextNum = sequence[i - 1] + sequence[i - 2];
+        sequence.push(nextNum)
+    }
+    return sequence;
+}
+console.log(fiboFun(100))
 
 // Common Elements: Given two arrays, write a function that finds the common elements between them.
 //  The output should be an array containing the common elements in both arrays, without duplicates. 

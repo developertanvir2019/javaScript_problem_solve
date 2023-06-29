@@ -19,15 +19,7 @@ const checkEvenNumber = (arr) => {
 // let res = checkEvenNumber([21, 21, 11, 34, 55, 3, 421, 343, 432, 421, 212, 22])
 // console.log(res);
 
-const reverceStr = (str) => {
-    let reverse = '';
-    for (let i = str.length - 1; i >= 0; i--) {
-        reverse += str[i];
-    }
-    return reverse;
-}
-// const result = reverceStr('tanvir')
-// console.log(result);
+
 
 const firstDuplicate = (arr) => {
     let firstdub = ''
