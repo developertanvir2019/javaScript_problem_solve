@@ -1,15 +1,15 @@
-const increment = document.getElementById('increment');
-const decrement = document.getElementById('decrement');
-const text = document.getElementById('text');
-let count = 0;
-increment.addEventListener('click', () => {
-    count++;
-    text.textContent = count
-})
-decrement.addEventListener('click', () => {
-    count--;
-    text.textContent = count
-})
+// const increment = document.getElementById('increment');
+// const decrement = document.getElementById('decrement');
+// const text = document.getElementById('text');
+// let count = 0;
+// increment.addEventListener('click', () => {
+//     count++;
+//     text.textContent = count
+// })
+// decrement.addEventListener('click', () => {
+//     count--;
+//     text.textContent = count
+// })
 
 
 // const isBirany = (nmbr) => {
@@ -23,3 +23,6 @@ decrement.addEventListener('click', () => {
 // }
 // const nmbr = '101110101011';
 // console.log(isBirany(nmbr));
+
+
+

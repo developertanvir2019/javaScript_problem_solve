@@ -22,5 +22,3 @@ const check = (str) => {
     }
     return count;
 }
-const ss = check('ajfeaiajakd')
-console.log(ss);
