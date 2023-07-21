@@ -21,6 +21,7 @@ const generateFibonacci = (n) => {
     return sequence;
 }
 
+
 // console.log(generateFibonacci(10));
 const fiboFun = (n) => {
     let sequence = [0, 1];
@@ -30,7 +31,7 @@ const fiboFun = (n) => {
     }
     return sequence;
 }
-console.log(fiboFun(100))
+// console.log(fiboFun(100))
 
 // Common Elements: Given two arrays, write a function that finds the common elements between them.
 //  The output should be an array containing the common elements in both arrays, without duplicates. 
