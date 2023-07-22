@@ -8,20 +8,19 @@ const sumOfAll = (arr) => {
     return sum;
 }
 // let result = sumOfAll([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-console.log(result);
+// console.log(result);
 
 
 
 // short by a-z;
 
 const sortStrings = (str) => {
-
     r = str.map(str => str.toLowerCase());
     r.sort();
     return r;
 }
 
-console.log(sortStrings(["banana", "Apple", "cherry", "date", "FIG"]));
+// console.log(sortStrings(["banana", "Apple", "cherry", "date", "FIG"]));
 
 // short z-a;
 // function sortStrings(arr) {
@@ -30,4 +29,7 @@ console.log(sortStrings(["banana", "Apple", "cherry", "date", "FIG"]));
 //     return arr;
 // }
 
+
+let short = ["banana", "Apple", "cherry", "date", "FIG"].map(s => s.toLocaleLowerCase()).sort()
+console.log(short);
 

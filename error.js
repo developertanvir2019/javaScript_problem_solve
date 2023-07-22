@@ -1,17 +1,20 @@
 
-//**************@@@@@@@@@@@*referenceError@@@@@@@@@@@@@*********************************8
+//**************@@@@@@@@@@@*referenceError@@@@@@@@@@@@@*********************************
+
+
+
 // যদি এমন কিছু পেতে চাই যেটার অস্তিত্ত নেই বা সেটা স্কোপের বাহির থেকে এক্সেস করার চেষ্টা করা হচ্ছে তাহলে রেফারেন্স ইরর দেয়।
 // let ans = 4 / a;
 // console.log(ans);
 
 // function myFunction() {
 //     var localVar = 'Hello';
-//   }
+// }
 
-//   console.log(localVar);
+// console.log(localVar);
 
 
-//   console.log(myVariable);
+// console.log(myVariable);
 
 
 
@@ -34,8 +37,8 @@
 
 
 // 2.It is not return any error because old javaScript has no var, let or const;
-// a = 4;
-// z = a;
+a = 4;
+z = a;
 // console.log(z);
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@---rangeError-----@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -44,11 +47,12 @@
 // var arr = new Array(-1);
 // console.log(arr);
 
-
-function factorial(n) {
+const factorial = (n) => {
     if (n <= 1) {
         return 1;
     }
-    return n * factorial(n - 1);
+    return n * factorial(n - 1)
 }
-console.log(factorial(10000)); 
+// console.log(factorial(4));
+
+console.log([2, 3] == [3, 1]);
