@@ -55,4 +55,14 @@ const factorial = (n) => {
 }
 // console.log(factorial(4));
 
-console.log([2, 3] == [3, 1]);
+// console.log([2, 3] == [3, 1]);
+
+
+
+const checkPalindrome = (str) => {
+    return str === str.split('').reverse().join('')
+}
+
+console.log(checkPalindrome('na'));
+
+
