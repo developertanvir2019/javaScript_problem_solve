@@ -22,3 +22,4 @@ const check = (str) => {
     }
     return count;
 }
+
