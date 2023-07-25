@@ -2,9 +2,9 @@
 let name = 'tanvir';
 let age = 5;
 
-// let temp = age;
-// age = name;
-// name = temp;
+let temp = age;
+age = name;
+name = temp;
 
 
 // swap without temp variable
