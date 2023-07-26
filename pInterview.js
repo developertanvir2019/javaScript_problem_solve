@@ -28,8 +28,8 @@ myName.arr.push(6);
 
 myName[name] = "updated Name";
 
-// console.log(myName);
-// console.log(user);
+console.log(myName);
+console.log(user);
 
 // we can access from access by below way.
 const tanvir = { ami: 'aci', tumi: 'nai' }
