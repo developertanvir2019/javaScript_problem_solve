@@ -21,6 +21,7 @@ function fizzBuzz(n) {
 }
 
 // Test the function
+// Test the function
 try {
     const output = fizzBuzz(15);
     console.log(output);
