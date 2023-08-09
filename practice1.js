@@ -23,11 +23,11 @@ const sortStrings = (str) => {
 // console.log(sortStrings(["banana", "Apple", "cherry", "date", "FIG"]));
 
 // short z-a;
-// function sortStrings(arr) {
-//     arr = arr.map(str => str.toLowerCase());
-//     arr.sort().reverse();
-//     return arr;
-// }
+function sortStrings(arr) {
+    arr = arr.map(str => str.toLowerCase());
+    arr.sort().reverse();
+    return arr;
+}
 
 
 let short = ["banana", "Apple", "cherry", "date", "FIG"].map(s => s.toLocaleLowerCase()).sort()
