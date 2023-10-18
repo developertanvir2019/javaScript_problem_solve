@@ -3,19 +3,27 @@
 // এবং var এর ক্ষেত্রে ভ্যালু undefined সেট করে দেয়।
 
 x = 0; //assign value
-console.log(x);
+// console.log(x);
 var x = 0; //declare
 
 // নিচে রেফারেন্স এরর দিবে কারন let ও const এর ক্ষেত্রে ভ্যারিয়েবল উপরে তুলে ঠিকই কিন্তু var এর মত undefined সেট করে না।
 
 x = 0; //assign value
-console.log(x);
-let x = 0; //declare
+// console.log(x);
+// let x = 0; //declare
 
 const fizbuzz = () => {
-  for (let i = 0; i <= 100; i++) {
-    if (i % 2 == 3 && i % 5 == 0) {
+  for (let i = 1; i <= 100; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
       console.log("fizbuzz");
+    } else if (i % 3 == 0) {
+      console.log("fizz");
+    } else if (i % 5 == 0) {
+      console.log("buzz");
+    } else {
+      console.log(i);
     }
   }
 };
+
+fizbuzz();
