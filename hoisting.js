@@ -26,4 +26,21 @@ const fizbuzz = () => {
   }
 };
 
-fizbuzz();
+// fizbuzz();
+
+// debounce
+
+const debounce = (fn, delay) => {
+  let timeoutId;
+  return (arg) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      fn(arg);
+    }, delay);
+  };
+};
+const deboFn = debounce(() => {
+  console.log("debounce is working perfectly");
+}, 1002);
+
+deboFn();
