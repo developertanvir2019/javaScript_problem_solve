@@ -43,4 +43,15 @@ const deboFn = debounce(() => {
   console.log("debounce is working perfectly");
 }, 1002);
 
-deboFn();
+// deboFn();
+
+const commonValue = (arr1, arr2) => {
+  let common = [];
+  for (i = 0; i < arr1.length; i++) {
+    if (arr2.includes(arr1[i])) {
+      common.push(arr1[i]);
+    }
+  }
+  return common;
+};
+console.log(commonValue([1, 2, 3, 4, 5, 6], [1, 4, 65, 8, 9, 81]));
