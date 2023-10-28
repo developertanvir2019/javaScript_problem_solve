@@ -24,9 +24,9 @@ const reverseSrt = (str) => {
 const reverse = (str) => {
   return str.split("").reverse().join("");
 };
-// console.log(reverse('tah'));
+console.log(reverse("tah"));
 
-// console.log(reverseSrt('tanvir'));
+console.log(reverseSrt("tanvir"));
 
 const findLongestWord = (sentence) => {
   let allWords = sentence.split(" ");
@@ -54,5 +54,3 @@ let arrayForEmpty = [1, 2, 3, 4, 5, 2, 66, 21];
 arrayForEmpty.splice(0, arrayForEmpty.length);
 
 // console.log(arrayForEmpty);
-
-
