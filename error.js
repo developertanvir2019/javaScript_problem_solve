@@ -1,7 +1,4 @@
-
 //**************@@@@@@@@@@@*referenceError@@@@@@@@@@@@@*********************************
-
-
 
 // যদি এমন কিছু পেতে চাই যেটার অস্তিত্ত নেই বা সেটা স্কোপের বাহির থেকে এক্সেস করার চেষ্টা করা হচ্ছে তাহলে রেফারেন্স ইরর দেয়।
 // let ans = 4 / a;
@@ -13,10 +10,7 @@
 
 // console.log(localVar);
 
-
 // console.log(myVariable);
-
-
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@---typeError-----@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -34,8 +28,6 @@
 // var obj = null;  // এটা অবজেক্ট নয় তাই টাইপএরর। এটা যদি  অব্জেক্ট হতো তাহলে আনডিফাইন হতো; যেমন var obj={};
 // console.log(obj.property); // TypeError: Cannot read property 'property' of null
 
-
-
 // 2.It is not return any error because old javaScript has no var, let or const;
 a = 4;
 z = a;
@@ -43,26 +35,21 @@ z = a;
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@---rangeError-----@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-
 // var arr = new Array(-1);
 // console.log(arr);
 
 const factorial = (n) => {
-    if (n <= 1) {
-        return 1;
-    }
-    return n * factorial(n - 1)
-}
-// console.log(factorial(4));
+  if (n <= 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+};
+console.log(factorial(4));
 
-// console.log([2, 3] == [3, 1]);
-
-
+console.log([2, 3] == [3, 1]);
 
 const checkPalindrome = (str) => {
-    return str === str.split('').reverse().join('')
-}
+  return str === str.split("").reverse().join("");
+};
 
-console.log(checkPalindrome('na'));
-
-
+console.log(checkPalindrome("na"));
