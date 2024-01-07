@@ -23,7 +23,6 @@ debouncedSearch("J");
 debouncedSearch("Ja");
 debouncedSearch("Jav");
 debouncedSearch("Java");
-// After 500 milliseconds of inactivity, the search function will be invoked with the final query "Java"
 
 function findMissingNumber(nums) {
   const n = nums.length + 1; // Since one number is missing
