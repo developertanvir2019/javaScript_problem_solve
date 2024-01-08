@@ -36,20 +36,4 @@ z = a;
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@---rangeError-----@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 // var arr = new Array(-1);
-// console.log(arr);
-
-const factorial = (n) => {
-  if (n <= 1) {
-    return 1;
-  }
-  return n * factorial(n - 1);
-};
-console.log(factorial(4));
-
-console.log([2, 3] == [3, 1]);
-
-const checkPalindrome = (str) => {
-  return str === str.split("").reverse().join("");
-};
-
-console.log(checkPalindrome("na"));
+// console.log(arr)

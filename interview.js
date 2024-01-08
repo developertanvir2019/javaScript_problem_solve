@@ -1,5 +1,5 @@
-// let a = true + true + true * 3;
-
+// let a = true + true + true + true;
+// console.log(a);
 // let a = 1;
 // let b = 0;
 // while (a <= 3) {

@@ -1,16 +1,3 @@
-function debounce(func, delay) {
-  let timerId;
-  return function (...args) {
-    if (timerId) {
-      clearTimeout(timerId);
-    }
-    timerId = setTimeout(() => {
-      func.apply(this, args);
-    }, delay);
-  };
-}
-
-// Example usage:
 function search(query) {
   console.log(`Searching for: ${query}`);
   // Actual search logic can be placed here
