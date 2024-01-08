@@ -21,9 +21,14 @@ function fizzBuzz(n) {
 }
 
 // Test the function now
-try {
-  const output = fizzBuzz(15);
-  console.log(output);
-} catch (error) {
-  console.error(error.message);
-}
+// try {
+//   const output = fizzBuzz(15);
+//   console.log(output);
+// } catch (error) {
+//   console.error(error.message);
+// }
+
+const arr = new Array(5);
+arr.forEach((item) => {
+  console.log(item);
+});
